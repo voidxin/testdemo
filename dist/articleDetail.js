@@ -62,33 +62,20 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 1:
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('text', {
-    staticClass: ["message"]
-  }, [_vm._v("Now, let's use Vue.js to build yosdsdsdsdsur Weex app.")]), _c('text', [_vm._v("hello ni hao a zhen de shi ni ma ")])])
-}]}
-module.exports.render._withStripped = true
-
-/***/ }),
-
-/***/ 5:
+/******/ ([
+/* 0 */,
+/* 1 */,
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* template */
-var __vue_template__ = __webpack_require__(1)
+var __vue_template__ = __webpack_require__(3)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -100,7 +87,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/voidxin/Desktop/voidxinProject_file/helloworld-project/src/components/HelloWorld.vue"
+__vue_options__.__file = "/Users/voidxin/Desktop/voidxinProject_file/helloworld-project/src/articleDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -118,6 +105,26 @@ module.exports.el = 'true'
 new Vue(module.exports)
 
 
-/***/ })
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
 
-/******/ });
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: ["wrapper"]
+  }, [_c('web', {
+    staticStyle: {
+      width: "100%",
+      height: "100%"
+    },
+    attrs: {
+      "src": "http://diy.pconline.com.cn/1116/11161544.html"
+    }
+  })])
+}]}
+module.exports.render._withStripped = true
+
+/***/ })
+/******/ ]);
